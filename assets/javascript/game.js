@@ -56,6 +56,20 @@ $(document).ready(function(){
 
     // if total score (counter) is equal with targetnumber, the user wins, if goes above the target number, the user loses.
 
+    if (counter === targetNumber) {
+    wins++;
+    resetthegame();
+
+    }
+    else if (counter >= targetNumber) {
+    losses++;
+    resetthegame();
+
+    }
+
+    $("#wins").html("wins:"+ wins);
+    $("#losses").html("losses:"+ losses);
+
   });
 
 });
