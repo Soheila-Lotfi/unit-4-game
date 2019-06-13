@@ -35,6 +35,28 @@ $(document).ready(function(){
     $("#wins").html("wins:"+ wins);
     $("#losses").html("losses:"+ losses);
    
+    // the click event applies to every single crystal on the page.
+
+  $(".crystal-image").on("click", function() {
+
+    // Determining the crystal's value requires us to extract the value from the data attribute.
+    // Using the $(this) keyword specifies that we should be extracting the crystal value of the clicked crystal.
+    // Using the .attr("data-crystalvalue") allows us to grab the value out of the "data-crystalvalue" attribute.
     
+    var crystalValue = ($(this).attr("data-crystalvalue"));
+
+    // Since attributes on HTML elements are strings, we must convert it to an integer before adding to the counter
+
+    crystalValue = parseInt(crystalValue);
+
+    // We then add the crystalValue to the user's "counter" which is a global variable.
+    // Every click, from every crystal adds to the global counter.
+    counter += crystalValue;
+    $("#totalscore").text(counter);
+
+    // if total score (counter) is equal with targetnumber, the user wins, if goes above the target number, the user loses.
+
+  });
+
 });
          
