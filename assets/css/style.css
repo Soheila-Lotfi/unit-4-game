@@ -36,3 +36,24 @@ background-color: #ff9800;
 
 }
 
+#winslosses{
+
+    background-color: #00BCD4;
+    width:10%;
+    height:100px;
+    margin-left:10px;
+}
+
+h2{
+    background-color: #2196f3d6;;
+    width: 25%;
+
+}
+
+#totalscore{
+    background-color: #2196f3d6;;
+    width: 25%;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
