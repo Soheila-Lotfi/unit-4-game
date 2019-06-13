@@ -1,12 +1,15 @@
 # unit-4-game
 
 CrystalCollector:
+
 Play the crystalcollector game at at https://soheila-lotfi.github.io/unit-4-game/
 
 By:
+
 Soheila Lotfi
 
 Contributions:
+
 Feel free to open an issue and I'll eventually take a look.
 
 
