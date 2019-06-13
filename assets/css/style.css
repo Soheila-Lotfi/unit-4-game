@@ -20,5 +20,19 @@ background-color: #ff9800;
     margin-bottom: 1%;
 }
 
+#randomnum-winslosses{
+    display:flex;
+}
 
+#bluecrystal{
+    width:200px;
+    height: 200px;
+}
+#number-to-guess{
+
+    background-color:  #00962ea6;
+    width:20%;
+    height: 100px;
+
+}
 
